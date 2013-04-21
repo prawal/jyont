@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/i_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/LabelTextSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/troubleRecieving" />
+
+            <TextView
+                style="@style/LabelTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/confirm" />
+
+            <TextView
+                android:id="@+id/labelPhoneNumber"
+                style="@style/LabelTextLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/changeNumber"
+                style="@style/LabelTextSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/changeNumber"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                style="@style/LabelTextSmall"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/number" />
+
+            <EditText
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:ems="10"
+                android:inputType="textEmailAddress" >
+            </EditText>
+
+            <Button
+                android:id="@+id/buttonEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/email" />
+
+            <TextView
+                style="@style/LabelTextSmall"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="or" />
+
+            <Button
+                android:id="@+id/buttonVeriCodeResned"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/phoneVerificationSmsResend" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

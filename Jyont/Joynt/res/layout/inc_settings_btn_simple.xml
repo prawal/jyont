@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/settings_btn" android:background="@drawable/btn_setting_list" android:paddingLeft="@dimen/settings_btn_padding_left" android:paddingRight="@dimen/settings_btn_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/settings_btn_height" android:layout_marginLeft="@dimen/settings_margin_left" android:layout_marginTop="@dimen/settings_margin_top" android:layout_marginRight="@dimen/settings_margin_right" android:layout_marginBottom="@dimen/settings_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android"  android:clickable="true">
+    <include layout="@layout/inc_settings_btn_part_title_fullweight" />
+    <include layout="@layout/inc_settings_btn_part_arrow" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/rel_my_search"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/bar_bg"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:paddingBottom="5.669983dip"
+            android:paddingTop="5.669983dip" >
+
+            <EditText
+                android:id="@android:id/edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="2.0dip"
+                android:layout_toLeftOf="@id/chathistory_send_button"
+                android:background="@drawable/edit_text_chat"
+                android:inputType="text|textVisiblePassword"
+                android:maxHeight="80.0dip"
+                android:maxLength="20"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="13.0dip"
+                android:paddingRight="13.0dip"
+                android:paddingTop="10.0dip" />
+
+            <TextView
+                android:id="@+id/chathistory_send_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="3.3299866dip"
+                android:layout_marginRight="4.0dip"
+                android:background="@drawable/chat_send_btn_bg"
+                android:clickable="false"
+                android:gravity="center"
+                android:paddingLeft="6.669983dip"
+                android:paddingRight="6.669983dip"
+                android:text="@string/send"
+                android:textColor="@drawable/chat_send_btn_text_color"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="284.0dip"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:background="@drawable/popup_barbg"
+        android:clickable="true"
+        android:paddingLeft="1.3299866dip" >
+
+        <LinearLayout
+            android:id="@+id/frienddetaildialog_close_btn"
+            android:layout_width="34.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9.329987dip"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/navigation_xbt" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frienddetaildialog_main_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_popup_bg"
+        android:paddingBottom="8.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="12.669983dip"
+        android:paddingTop="8.0dip" >
+
+        <ImageView
+            android:id="@+id/frienddetaildialog_thumbnail"
+            android:layout_width="100.0dip"
+            android:layout_height="100.66dip"
+            android:background="@drawable/noimg_c2" />
+
+        <TextView
+            android:id="@+id/frienddetaildialog_name"
+            style="@style/profile_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.659973dip"
+            android:layout_marginTop="1.3299866dip"
+            android:layout_toRightOf="@id/frienddetaildialog_thumbnail"
+            android:lineSpacingExtra="-2.0dip" />
+
+        <LinearLayout
+            android:id="@+id/frienddetaildialog_status_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/frienddetaildialog_name"
+            android:layout_below="@id/frienddetaildialog_name"
+            android:layout_marginTop="2.0dip"
+            android:background="@drawable/selector_profiledialog_status_btn"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="6.0dip"
+            android:paddingTop="10.0dip" >
+
+            <TextView
+                android:id="@+id/frienddetaildialog_status_msg"
+                style="@style/profile_dialog_desc"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:autoLink="none"
+                android:duplicateParentState="true"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-2.0dip" />
+
+            <ImageView
+                android:id="@+id/frienddetaildialog_status_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_weight="0.0"
+                android:src="@drawable/selector_profiledialog_status_go" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frienddetaildialog_buddy_friends_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/frienddetaildialog_thumbnail"
+            android:layout_alignLeft="@id/frienddetaildialog_name"
+            android:background="@drawable/profile_friend_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="6.669983dip"
+            android:paddingRight="6.669983dip"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile_friend_icon" />
+
+            <TextView
+                android:id="@+id/frienddetaildialog_buddy_friends_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3.3299866dip"
+                android:paddingBottom="0.33000004dip"
+                android:shadowColor="#ffa9b0ba"
+                android:shadowDy="-0.67"
+                android:shadowRadius="1.0"
+                android:textColor="#ffffffff"
+                android:textSize="13.0sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/frienddetaildialog_button_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frienddetaildialog_main_area"
+        android:background="@drawable/popup_bg_bottom"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/newdialog_left_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/frienddetaildialog_button_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginTop="6.0dip"
+                android:src="@drawable/chat" />
+
+            <TextView
+                android:id="@+id/frienddetaildialog_button_text"
+                style="@style/profile_dialog_button_text"
+                android:text="@string/Chat" />
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/newdialog_middle_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/frienddetaildialog_button_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginTop="6.0dip"
+                android:src="@drawable/share" />
+
+            <TextView
+                android:id="@+id/frienddetaildialog_button_text"
+                style="@style/profile_dialog_button_text"
+                android:text="@string/Share" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/free_call_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/newdialog_right_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/frienddetaildialog_button_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginTop="6.0dip"
+                android:src="@drawable/freecall" />
+
+            <TextView
+                android:id="@+id/frienddetaildialog_button_text"
+                style="@style/profile_dialog_button_text"
+                android:text="@string/FreeCall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

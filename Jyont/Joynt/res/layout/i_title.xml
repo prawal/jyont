@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="45.329987dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/header_left_button" android:background="@drawable/selector_navi_button" android:paddingLeft="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="31.329987dip" android:layout_marginTop="0.6600001dip" android:layout_marginRight="7.0dip" android:minWidth="@dimen/header_button_width">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/header_left_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff232933" android:shadowDy="-0.66" android:shadowRadius="1.0" />
+            <ImageView android:id="@+id/title_left_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@+id/header_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.6600001dip" android:text="@string/app_name" android:singleLine="true" android:shadowColor="#ff272b35" android:shadowDy="-0.66" android:shadowRadius="1.0" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/header_right_button" android:background="@drawable/selector_navi_button" android:paddingLeft="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="31.329987dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="0.6600001dip" android:minWidth="@dimen/header_button_width">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/header_right_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+            <ImageView android:id="@+id/header_right_button_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/header_left_btn_clickable_space" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:id="@+id/header_right_btn_clickable_space" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:cacheColorHint="#00000000" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="7.0dip" >
+
+            <include
+                android:id="@+id/settings_account_status"
+                   android:layout_height="0dp"
+                android:layout_weight="14.53"
+                layout="@layout/inc_setting_account" />
+
+            <include
+                android:id="@+id/settings_account_email"
+                layout="@layout/inc_settings_email" />
+
+            <include
+                android:id="@+id/settings_account_password"
+                layout="@layout/inc_settings_password" />
+
+            <include
+                android:id="@+id/settings_account_membership"
+                android:layout_height="0dp"
+                android:layout_weight="14.53"
+                layout="@layout/inc_settings_membership" />
+        </LinearLayout>
+    </ScrollView>
+
+       <Button android:text="Delete Account" android:id="@+id/deleteAccount"
+		android:layout_height="wrap_content" android:layout_width="200px"
+		android:layout_gravity="center" android:layout_marginTop="17px"></Button>
+</LinearLayout>

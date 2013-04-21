@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="284.0dip"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:background="@drawable/popup_barbg"
+        android:clickable="true"
+        android:paddingLeft="1.3299866dip" >
+
+        <LinearLayout
+            android:id="@+id/profiledetaildialog_close_btn"
+            android:layout_width="34.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9.329987dip"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/navigation_xbt" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profiledetaildialog_main_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_popup_bg"
+        android:paddingBottom="8.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="12.669983dip" >
+
+        <TextView
+            android:id="@+id/txtviewConfirmPhoneNumber"
+            style="@style/LabelTextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtviewDialogMessage"
+            style="@style/profile_dialog_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtviewConfirmPhoneNumber"
+            android:layout_marginBottom="10dp"
+            android:text="@string/termDialogMessage" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/profiledetaildialog_button_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_bg_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btn_cancel_term_dialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/customDialogCancelText" />
+
+        <Button
+            android:id="@+id/btn_confirm_term_dialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/customDialogConfirmText" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+    <string name="phoneVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name ="emailVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name="phoneVarificationServiceUrlLocal">http://192.168.1.18/joynt/service/webservice.php</string>
+
+    <integer name="splash_screen_time">1000</integer>
+<string name = "alertValidID"> Please enter valid ID</string>
+    <string name="app_name">Joynt</string>
+    <string name="btnBackText">キャンセル</string>
+    <string name="registorTitle">電話番号の入力</string>
+    <string name="registorEnterYouNumber">携帯番号を入力して下さい</string>
+    <string name="registorCountryCode">+81</string>
+    <string name="registorCountry">Japan</string>
+    <string name="registorBottomText">利用登録を行います。
+携帯電話番号の入力は、お客様がご本人様であるかを確認するために必要となります。</string>
+    <string name="registorButtonText">次へ</string>
+    <string name = "edit">編集</string>
+    <string name="status_msg">ひとこと</string>
+    <string name="termOfUseTitle">利用規約</string>
+     <string name="registorT">SMS認証番号の再送信</string>
+       <string name = "WebPage">WEBページ</string>
+    <string name = "RSS">RSS</string>
+    <string name="termOfUseAgreementText">
+<![CDATA[
+			<html>
+			 <head></head>
+			 <body style="text-align:justify;color:black;margin:0px;">
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+			    </body>
+			</html>
+		]]>
+    </string>
+    <string name="termDialogTitle">電話番号の確認</string>
+    <string name="termDialogMessage">入力された番号をもう一度御確認下さい　SMSにてお客様の携帯へ4桁の認証番号をお送りいたします。
+
+ネットワークの接続状態により時間がかかる可能性があります。
+
+電話番号を修正なさる場合は、下のキャンセルボタンを押して下さい。</string>
+    <string name="termDialogPhoneNumber">電話番号の確認</string>
+    <string name="termOfUseButtonText">利用規約に合意する。</string>
+    <string name="countryTitle">国の選択</string>
+    <string name="countryAlertTitle">Not Found!!</string>
+    <string name="countryAlertMessage">記入された国が見つかりません。 </string>
+    <string name="friendAlertMessage">友達はまだ登録されていません。 </string>
+    <string name="searchname">検索</string>
+    <string name="alertTitle">take off "Alert"</string>
+    <string name="alertValidPhoneNumber">電話番号を入力して下さい。</string>
+     <string name="alertValidEmailID">正しいEメールアドレスを入力して下さい。</string>
+    <string name="customDialogCancelText">キャンセル</string>
+    <string name="customDialogConfirmText">登録</string>
+    <string name="phoneVerificationTitle">認証番号の入力</string>
+    <string name ="emailVerificationTitle">認証番号を入力して下さい。</string>
+    <string name = "troubleRecieving">認証番号が届かない場合は?</string>
+    <string name="phoneVerificationAlertMessage">認証番号の入力</string>
+     <string name="emailVerificationAlertMessage">Please enter verification code received via Email.</string>
+    <string name="phoneVerificationViaSms">上記の番号に認証番号を送りました</string>
+    <string name="phoneVerificationEnter">
+   
+<![CDATA[
+         認証番号を入力して下さい。 <b>\"次へ\"</b>
+         ]]>
+    </string>
+    <string name = "alertValidEmail"> Enter valid Email</string>
+     <string name="emailVerificationEnter">
+   
+<![CDATA[
+         認証番号を入力して下さい。 <b>\"Next\"</b>
+         ]]>
+    </string>
+  
+     <string name = "confirm">Please confirm your phone number</string>
+    <string name = "number">Send verification to your email</string>
+       <string name = "email">Send code to My email</string>
+      
+    <string name="Option">Option</string>
+    <string name="phoneVerificationSmsNotReceived">
+<![CDATA[
+       3分以上経過してもSMSが届かない場合は、下記の「送信オプション」をクリックして下さい。
+         ]]>
+    </string>
+    <string name="phoneVerificationSmsResend"> Resend Verification Code to my phone</string>
+    <string name="useContactTitle">アドレス帳の利用</string>
+    <string name="useContactTopLabelText">アドレス帳を利用して、JOYNTを現在利用している友達を探す事ができます。</string>
+    <string name="useContactContantRows">
+<![CDATA[
+         	<html>
+			 <head></head>
+			 <body style="text-align:justify;color:#888;margin:0px;font-size:0.9em;">
+	         	
+	         		•アドレス帳の情報をJOYNTサーバーに送信しJOYNTを利用している友達を「友達」リストに自動で追加します。
+	         	<hr />
+	         	•送信される情報は、アドレス帳内の電話番号と携帯メールアドレスのみです。
+	         	<hr />
+	         		•アドレス帳にあなたの電話番号を保有しているユーザーの「友達」リストにあなたが自動で追加されます。
+	         	<hr />
+	         		•アプリ内の設定画面より、アドレス帳の利用についての設定が変更可能です。
+	         	
+	         </body>
+	        </html>
+         ]]>
+    </string>
+    <string name="useContactFirstBottonText">アドレス帳の利用</string>
+    <string name="useContactSecondBottonText">今は利用しない</string>
+    <string name="displayNameTitle">名前を入力</string>
+    <string name="displayNameLabel">名前を入力して下さい。(0/20文字)</string>
+    <string name="displayNameAlertMessage">名前を入力して下さい。(0/20文字).</string>
+    <string name="displayNameButtonText">完了</string>
+    <string name="displayNameCharCountLabel">(0/20)</string>
+    <string name="displayNameSuggessionText">友達があなたを簡単に認識できる様に、本名を登録する事を勧めます。</string>
+    <string name="homeTitle">Home</string>
+     <string name = "Home">Home</string>
+     <string name = "Friends">Friends</string>
+     <string name="friendListTitle">友達</string>
+    <string name = "PlayandShare">再生/共有</string>
+    <string name = "Movie">動画</string>
+    <string name = "Documents">ドキュメント</string>
+    <string name = "Photos">写真</string>
+    <string name = "Apps">アプリ</string>
+    <string name = "FromFolder">フォルダから</string>
+    <string name = "Camera">カメラ撮影</string>
+    <string name = "Gallery">ライブラリ</string>
+    <string name = "ImageSearch">画像検索</string>
+    <string name = "EditProfile">プロファイル設定</string>
+    <string name = "CreateNew">ドキュメント作成</string>
+    <string name = "Comment">ひとこと</string>
+    <string name = "Music">音楽</string>
+    <string name = "Chats">トーク</string>
+    <string name = "Share">共有</string>
+     <string name = "Settings">Settings</string>
+   
+    <string name = "Chat">トーク</string>
+    <string name = "FreeCall">無料通話</string>
+     <string name = "Name">Name</string>
+  
+    <string name="settingsTitle">設定</string>
+    <string name="profileTitle">プロファイル</string>
+  
+    <string name="changeNumber"> <u>電話番号変更</u>.</string>
+
+    <string name="commentTitle">ひとこと</string>
+    <string name="setting_profile_allow_friend_search">友達検索</string>
+    <string name="simple_profile_message">今あなたが考えている事や気分を
+コメントしよう!</string>
+    <string name="main_no_items">No items</string>
+    <string name="list_loading">読み込み中・・・</string>
+   
+    <string name="save">保存</string>
+    <string name="send">Send</string>
+    <string name="done">完了</string>
+    <string name="delete">削除</string>
+    <string name="display_name">名前</string>
+  
+    <string name="phone_no">電話番号</string>
+    <string name="display_name_update_success_msg">名前の更新が完了しました。</string>
+    <string name="settings_profile_allow_search_by_id_guide">他の友達が名前やEメールアドレスであなたを検索する事ができます。</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">設定</string>
+    <string name="title_activity_my_class">MyClassActivity</string>
+
+</resources>

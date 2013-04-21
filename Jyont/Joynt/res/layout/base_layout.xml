@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navbar_background"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btnHome"
+            style="@style/navbar_button"
+            android:layout_marginLeft="5dp"
+            android:drawableTop="@drawable/navbar_homeselector"
+            android:text="@string/Home" />
+
+        <RadioButton
+            android:id="@+id/btnFriends"
+            style="@style/navbar_button"
+            android:layout_marginLeft="5dp"
+            android:drawableTop="@drawable/navbar_friendselector"
+            android:text="@string/Friends" />
+
+        <RadioButton
+            android:id="@+id/btnChats"
+            style="@style/navbar_button"
+            android:layout_marginLeft="5dp"
+            android:drawableTop="@drawable/navbar_chatselector"
+            android:text="@string/Chats" />
+
+        <RadioButton
+            android:id="@+id/btnShare"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_shareselector"
+            android:text="@string/Share" />
+
+        <RadioButton
+            android:id="@+id/btnSettings"
+            style="@style/navbar_button"
+            android:layout_marginLeft="5dp"
+            android:drawableTop="@drawable/navbar_settingselector"
+            android:text="@string/Settings" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/radiogroup"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

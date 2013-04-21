@@ -1,0 +1,395 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:id="@+id/main_linearLayout_principal"
+    android:scrollbars="vertical" >
+
+    <include layout="@layout/i_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:scrollbars="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/webview_border"
+                android:padding="10dp"
+                android:weightSum="3" >
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/btnHomeFrieldList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/friends_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/free_call_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/chats_icon" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Friends" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/FreeCall" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Chats" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/webview_border"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="0dp"
+                android:weightSum="3" >
+
+                <TextView
+                    style="@style/LabelTextSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:text="@string/PlayandShare"
+                    android:textStyle="bold" />
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/documents_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/music_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/movie_icon" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Documents" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Music" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Movie" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/photos_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/app_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/folder_icon" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Photos" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Apps" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/FromFolder" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/webview_border"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="0dp"
+                android:weightSum="3" >
+
+                <TextView
+                    style="@style/LabelTextSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:text="@string/CreateNew"
+                    android:textStyle="bold" />
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/camera_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/gallery_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/image_search_icon" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Camera" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Gallery" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/ImageSearch" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/webpage_icon" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/rss_icon" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/WebPage" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/RSS" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:text="" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="settings_margin_left">7.2599792dip</dimen>
+    <dimen name="settings_margin_top">1.9799805dip</dimen>
+    <dimen name="settings_margin_right">7.2599792dip</dimen>
+    <dimen name="settings_margin_bottom">1.9799805dip</dimen>
+    <dimen name="settings_btn_padding">11.219971dip</dimen>
+    <dimen name="settings_btn_padding_left">11.219971dip</dimen>
+    <dimen name="settings_btn_padding_right">8.579987dip</dimen>
+    <dimen name="settings_btn_title">15.0sp</dimen>
+    <dimen name="settings_btn_text">15.0sp</dimen>
+    <dimen name="settings_btn_sub_text">13.0sp</dimen>
+    <dimen name="settings_btn_height">45.0dip</dimen>
+    <dimen name="settings_btn_height_with_line">45.659973dip</dimen>
+    <dimen name="settings_btn_add">12.0sp</dimen>
+    <dimen name="header_button_width">47.0dip</dimen>
+</resources>

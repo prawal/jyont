@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/settings_btn" android:background="@drawable/btn_setting_list_top" android:paddingLeft="@dimen/settings_btn_padding_left" android:paddingRight="@dimen/settings_btn_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/settings_btn_height" android:layout_marginLeft="@dimen/settings_margin_left" android:layout_marginTop="@dimen/settings_margin_top" android:layout_marginRight="@dimen/settings_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android"  android:clickable="true">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include layout="@layout/inc_settings_btn_part_title_lightweight" />
+        <LinearLayout android:gravity="right|center" android:id="@android:id/content" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/settings_btn_text" android:textColor="@color/settings_btn_text" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/inc_settings_btn_part_arrow" />
+</LinearLayout>

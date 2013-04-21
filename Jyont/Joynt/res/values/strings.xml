@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="phoneVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name="emailVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name="phoneVarificationServiceUrlLocal">http://192.168.1.18/joynt/service/webservice.php</string>
+
+    <integer name="splash_screen_time">1000</integer>
+
+    <string name="alertValidID"> Please enter valid ID</string>
+    <string name="app_name">Joynt</string>
+    <string name="btnBackText">Back</string>
+    <string name="registorTitle">Phone Registration</string>
+    <string name="registorT">Resend Verification Code</string>
+    <string name="registorEnterYouNumber">Please enter your cellphone number</string>
+    <string name="registorCountryCode">+81</string>
+    <string name="registorCountry">Japan</string>
+    <string name="registorBottomText">You will receive 4 digit verification code to confirm your phone number</string>
+    <string name="registorButtonText">Next</string>
+    <string name="termOfUseTitle">Term of Use</string>
+    <string name="WebPage">WebPage</string>
+    <string name="RSS">RSS</string>
+    <string name="termOfUseAgreementText">        <![CDATA[
+			<html>
+			 <head></head>
+			 <body style="text-align:justify;color:black;margin:0px;">
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+			    </body>
+			</html>
+		]]>
+    </string>
+    <string name="termDialogTitle">Verify your phone number.</string>
+    <string name="termDialogMessage">The verification code will be sent to this number. If you\'d like to change your phone number, please select  \"Cancel\""</string>
+    <string name="termDialogPhoneNumber">Verify your phone number.</string>
+    <string name="termOfUseButtonText">I Agree to Term of Use</string>
+    <string name="countryTitle">Select Country</string>
+    <string name="countryAlertTitle">Not Found!!</string>
+    <string name="countryAlertMessage">No match found for country like  </string>
+    <string name="friendAlertMessage">No friend(s) found.  </string>
+    <string name="searchname">Search</string>
+    <string name="alertTitle">Alert!</string>
+    <string name="alertValidPhoneNumber">A valid phone number required.</string>
+    <string name="alertValidEmailID">A valid email id required.</string>
+    <string name="customDialogCancelText">Cancel</string>
+    <string name="customDialogConfirmText">Confirm</string>
+    <string name="phoneVerificationTitle">Enter Verification Code</string>
+    <string name="emailVerificationTitle">Enter Verification Code</string>
+    <string name="troubleRecieving">Trouble Recieving Verification Code ????</string>
+    <string name="phoneVerificationAlertMessage">Please enter verification code received via SMS.</string>
+    <string name="emailVerificationAlertMessage">Please enter verification code received via Email.</string>
+    <string name="phoneVerificationViaSms">Verification code has been sent to above phone number via SMS</string>
+    <string name="phoneVerificationEnter">        <![CDATA[
+         Enter the code below and click <b>\"Next\"</b>
+         ]]>
+    </string>
+    <string name="alertValidEmail"> Enter valid Email</string>
+    <string name="emailVerificationEnter">        <![CDATA[
+         Enter the code below and click <b>\"Next\"</b>
+         ]]>
+    </string>
+    <string name="confirm">Please confirm your phone number</string>
+    <string name="number">Send verification to your email</string>
+    <string name="email">Send code to My email</string>
+    <string name="Option">Option</string>
+    <string name="phoneVerificationSmsNotReceived">        <![CDATA[
+         If you don\'t receive SMS after 3 minutes, please click <b>\"Option\"</b>
+         ]]>
+    </string>
+    <string name="phoneVerificationSmsResend"> Resend Verification Code to my phone</string>
+    <string name="useContactTitle">Use My Contact List</string>
+    <string name="useContactTopLabelText">Do you want to use your Contact List to search for other friends who use JOYNT?</string>
+    <string name="useContactContantRows">        <![CDATA[
+         	<html>
+			 <head></head>
+			 <body style="text-align:justify;color:#888;margin:0px;font-size:0.8em;">
+	         	
+	         		Your Contact list will be sent to our servers, and all friends already using JOYNT will be automatically added to your friend list.
+	         	<hr/>
+					Only the phone number and email addresses will be sent. All other informataion (photo, name etc.)	will not be sent.         	\
+				<hr/>
+	         		All data will be encrypted and sent securely to our servers. This data will not be used for any other purposes other than searching for your friends.
+	         	<hr/>
+	         		You will be automatically be added into the friend list of the user who has your phone number saved on his/her device.
+	         	
+	         </body>
+	        </html>
+         ]]>
+    </string>
+    <string name="useContactFirstBottonText">Use My Contact List</string>
+    <string name="useContactSecondBottonText">Don\'t Use it for Now</string>
+    <string name="displayNameTitle">Display Name</string>
+    <string name="displayNameLabel">Enter your display name </string>
+    <string name="displayNameAlertMessage">Please enter your display name.</string>
+    <string name="displayNameButtonText">Register</string>
+    <string name="displayNameCharCountLabel">(0/20)</string>
+    <string name="displayNameSuggessionText">We recommend you to use your real name to be recognized easier by your friends.</string>
+    <string name="homeTitle">Home</string>
+    <string name="Home">Home</string>
+    <string name="Friends">Friends</string>
+    <string name="PlayandShare">Play/Share</string>
+    <string name="Movie">Movie</string>
+    <string name="Documents">Documents</string>
+    <string name="Photos">Photos</string>
+    <string name="Apps">Apps</string>
+    <string name="FromFolder">From Folder</string>
+    <string name="Camera">Camera</string>
+    <string name="Gallery">Gallery</string>
+    <string name="ImageSearch">Image Search</string>
+    <string name="EditProfile">EditProfile</string>
+    <string name="CreateNew">CreateNew</string>
+    <string name="Comment">Comment</string>
+    <string name="Music"></string>
+    <string name="Chats">Chats</string>
+    <string name="Share">Share</string>
+    <string name="Chat">Chat</string>
+    <string name="FreeCall">Free Call</string>
+    <string name="Name">Name</string>
+    <string name="friendListTitle">Friend</string>
+    <string name="Settings">Settings</string>
+    <string name="settingsTitle">Setting</string>
+    <string name="status"><b>Status</b></string>
+    <string name="MemberPlan"><b>Membership Plan</b></string>
+    <string name="profileTitle">Profile</string>
+    <string name="changeNumber"><u>Change the number</u>.</string>
+    <string name="commentTitle">Comment</string>
+    <string name="setting_profile_allow_friend_search">Allow Friend Search</string>
+    <string name="simple_profile_message">"Here you can write 
+your thoughts and comments. 
+Try it now!"</string>
+    <string name="main_no_items">No items</string>
+    <string name="list_loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="display_name">Display Name</string>
+    <string name="status_msg">Comment</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="myAccount">My Account</string>
+    <string name="editemail">Edit Email Address</string>
+    <string name="display_name_update_success_msg">Display name updated successfully.</string>
+    <string name="settings_profile_allow_search_by_id_guide">People can add you as a friend by your display name or email.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_my_class">MyClassActivity</string>
+    <string name="string_answer">Answer</string>
+    <string name="string_endcall">End Call</string>
+    <string name="string_speaker_on">Speaker ON</string>
+    <string name="string_speaker_off">Speaker OFF</string>
+    <string name="string_mute_on">Mute ON</string>
+    <string name="string_mute_off">Mute OFF</string>
+    <string name="string_hold">Hold</string>
+    <string name="string_resume">Resume</string>
+    <string name="string_send_video">Send Video</string>
+    <string name="string_stop_video">Stop Video</string>
+    <string name="string_switch_camera">Switch camera</string>
+    <string name="string_call_terminated">Call Terminated</string>
+    <string name="string_incall">In Call</string>
+    <string name="string_call_incoming">Incoming Call</string>
+    <string name="string_call_outgoing">Outgoing Call</string>
+    <string name="string_call_cancelled">Call cancelled</string>
+
+</resources>

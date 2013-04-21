@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="78.44dip"
+        android:background="@drawable/addfriends_topbutton_bg_01_default"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@+id/profile_photo"
+                android:layout_width="76.88dip"
+                android:layout_height="76.88dip"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="4.0dip" >
+
+                <ImageView
+                    android:id="@+id/profiledetaildialog_thumbnail"
+                    android:layout_width="72.0dip"
+                    android:layout_height="72.0dip"
+                    android:background="@drawable/noimg_c2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@id/profile_photo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Name"
+                    android:textColor="#ffffff"
+                    android:textSize="16.0dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" >
+
+        <ListView
+            android:id="@+id/friends_comment_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdge="none" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+    <string name="phoneVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name ="emailVarificationServiceUrlLive">http://108.166.66.148/service/webservice.php</string>
+    <string name="phoneVarificationServiceUrlLocal">http://192.168.1.18/joynt/service/webservice.php</string>
+
+    <integer name="splash_screen_time">1000</integer>
+<string name = "alertValidID"> Please enter valid ID</string>
+    <string name="app_name">Joynt</string>
+    <string name="btnBackText">取消</string>
+    <string name="registorTitle">請輸入電話號碼</string>
+    <string name="registorEnterYouNumber">請輸入您的手機號碼</string>
+    <string name="registorCountryCode">+81</string>
+    <string name="registorCountry">Japan</string>
+    <string name="registorBottomText">正在進行處理。輸入手機號碼是用來確認您是否為本人。</string>
+    <string name="registorButtonText">下一步</string>
+    <string name="termOfUseTitle">Term of Use</string>
+      <string name = "WebPage">網頁</string>
+    <string name = "RSS">RSS</string>
+     <string name="registorT">重發驗證碼</string>
+    <string name="termOfUseAgreementText">
+<![CDATA[
+			<html>
+			 <head></head>
+			 <body style="text-align:justify;color:black;margin:0px;">
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+				Android runs on a variety of devices that offer different screen sizes and densities. For applications, the Android system provides a consistent development environment across devices and handles most of the work to adjust each application\'s user interface to the screen on which it is displayed. At the same time, the system provides APIs that allow you to control your application\'s UI for specific screen sizes and densities, in order to optimize your UI design for different screen configurations. For example, you might want a UI for tablets that\'s different from the UI for handsets.
+			    </body>
+			</html>
+		]]>
+    </string>
+    <string name="termDialogTitle">確認電話號碼</string>
+    <string name="termDialogMessage">請在次確認您輸入的號碼。將有4位數的驗證碼發送到您的手機中。網絡連接狀態會影響到驗證碼的發送速度。更改電話號碼，請點下方的取消按鈕。</string>
+    <string name="termDialogPhoneNumber">確認電話號碼</string>
+    <string name="termOfUseButtonText">I Agree to Term of Use</string>
+    <string name="countryTitle">選擇國家</string>
+    <string name="countryAlertTitle">Not Found!!</string>
+    <string name="countryAlertMessage">No match found for country like  </string>
+    <string name="friendAlertMessage">No friend(s) found.  </string>
+    <string name="searchname">Search</string>
+    <string name="alertTitle">Alert!</string>
+    <string name="alertValidPhoneNumber">A valid phone number required.</string>
+     <string name="alertValidEmailID">A valid email id required.</string>
+    <string name="customDialogCancelText">取消</string>
+    <string name="customDialogConfirmText">登陸</string>
+    <string name="phoneVerificationTitle">輸入驗證碼</string>
+    <string name ="emailVerificationTitle">Enter Verification Code</string>
+    <string name = "troubleRecieving">Trouble Receiving Verification Code ????</string>
+    <string name="phoneVerificationAlertMessage">輸入驗證碼</string>
+     <string name="emailVerificationAlertMessage">Please enter verification code received via Email.</string>
+    <string name="phoneVerificationViaSms">請把驗證碼發送到上方的號碼中。</string>
+    <string name="phoneVerificationEnter">
+   
+<![CDATA[
+         Enter the code below and click <b>\"Next\"</b>
+         ]]>
+    </string>
+    <string name = "alertValidEmail"> Enter valid Email</string>
+     <string name="emailVerificationEnter">
+   
+<![CDATA[
+         Enter the code below and click <b>\"Next\"</b>
+         ]]>
+    </string>
+  
+     <string name = "confirm">Please confirm your phone number</string>
+    <string name = "number">Send verification to your email</string>
+       <string name = "email">Send code to My email</string>
+      
+    <string name="Option">Option</string>
+    <string name="phoneVerificationSmsNotReceived">
+<![CDATA[
+         If you don\'t receive SMS after 3 minutes, please click <b>\"Option\"</b>
+         ]]>
+    </string>
+    <string name="phoneVerificationSmsResend"> Resend Verification Code to my phone</string>
+    <string name="useContactTitle">使用我的聯係人列表</string>
+    <string name="useContactTopLabelText">可以利用我的聯係人列表來查找使用JOYNT的朋友。</string>
+    <string name="useContactContantRows">
+<![CDATA[
+         	<html>
+			 <head></head>
+			 <body style="text-align:justify;color:#888;margin:0px;font-size:0.9em;">
+	         	
+我們的服務器將發送您的聯係人列表到JOYNT。您的朋友中已經使用JOYNT的用戶將自動添加到您的好友列表中。	         	<hr />
+	         		我們只將把電話號碼和移動電子郵件發送到JOYNT服務器中。
+	         	<hr />
+您將自動被添加到聯係人列表中擁有您的電話號碼用戶的朋友列表中。	         	<hr />
+	         		您可以從應用内的設置中，更改您的聯係人列表設置。
+	         	
+	         </body>
+	        </html>
+         ]]>
+    </string>
+    <string name="useContactFirstBottonText">使用我的聯係人列表</string>
+    <string name="useContactSecondBottonText">現在不使用</string>
+    <string name="displayNameTitle">輸入姓名</string>
+    <string name="displayNameLabel">請輸入姓名（20字以内）</string>
+    <string name="displayNameAlertMessage">請輸入姓名（20字以内）</string>
+    <string name="displayNameButtonText">完成</string>
+    <string name="displayNameCharCountLabel">(0/20)</string>
+    <string name="displayNameSuggessionText">便於您的朋友迅速找到您。我們建議您登陸時使用真實姓名。</string>
+    <string name="homeTitle">首頁</string>
+     <string name = "Home">首頁</string>
+    <string name = "Friends">朋友</string>
+    <string name = "PlayandShare">再生/共享</string>
+    <string name = "Movie">視頻</string>
+    <string name = "Documents">文檔</string>
+    <string name = "Photos">照片</string>
+    <string name = "Apps">應用</string>
+    <string name = "FromFolder">從文件夾</string>
+    <string name = "Camera">拍照</string>
+    <string name = "Gallery">畫廊</string>
+    <string name = "ImageSearch">搜索圖片</string>
+    <string name = "EditProfile">設置個人資料</string>
+    <string name = "CreateNew">創建文檔</string>
+    <string name = "Comment">評論</string>
+    <string name = "Music">音樂</string>
+    <string name = "Chats">聊天</string>
+    <string name = "Share">共享</string>
+    <string name = "Settings">設置</string>
+    <string name = "Chat">聊天</string>
+    <string name = "FreeCall">免費電話</string>
+     <string name = "Name">Name</string>
+    <string name="friendListTitle">朋友</string>
+    <string name="settingsTitle">設置</string>
+    <string name="profileTitle">個人資料</string>
+  
+    <string name="changeNumber"> <u>更改電話號碼</u>.</string>
+
+    <string name="commentTitle">評論</string>
+    <string name="setting_profile_allow_friend_search">搜索朋友</string>
+    <string name="simple_profile_message">"Here you can write 
+your thoughts and comments. 
+Try it now!"</string>
+    <string name="main_no_items">No items</string>
+    <string name="list_loading">正在讀取…</string>
+    <string name="edit">編輯</string>
+    <string name="save">保存</string>
+    <string name="send">Send</string>
+    <string name="done">完成</string>
+    <string name="delete">刪除</string>
+    <string name="display_name">姓名</string>
+    <string name="status_msg">評論</string>
+    <string name="phone_no">電話號碼</string>
+    <string name="display_name_update_success_msg">Display name updated successfully.</string>
+    <string name="settings_profile_allow_search_by_id_guide">其他人可以通過姓名或電子郵件搜索您。</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">設置</string>
+    <string name="title_activity_my_class">MyClassActivity</string>
+
+</resources>

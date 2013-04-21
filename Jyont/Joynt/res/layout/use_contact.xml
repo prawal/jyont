@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/i_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/lableUseContactTop"
+                style="@style/LabelTextSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5dp"
+                android:shadowColor="#fff6f6f6"
+                android:text="@string/useContactTopLabelText"
+                android:textColor="#ff4e5466"
+                android:textSize="14.0sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/webview_border"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <android.webkit.WebView
+                    android:id="@+id/editText1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:scrollbars="vertical" >
+                </android.webkit.WebView>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnUseContactFirstBotton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/useContactFirstBottonText" />
+
+            <Button
+                android:id="@+id/btnUseContactSecondBotton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/useContactSecondBottonText" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

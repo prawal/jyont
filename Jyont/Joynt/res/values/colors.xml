@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <color name="titlebackgroundcolor">#003860</color>
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="section_startcolor">#aab7c0</color>
+    <color name="section_endcolor">#b9c3cc</color>
+    <color name="section_startcolor_selected">#c4b4c6</color>
+    <color name="section_endcolor_selected">#4f3e51</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#ff2570ba</color>
+    <color name="grey">#f7f7f7</color>
+    <color name="settings_bg">#ffd3d3d3</color>
+    <color name="settings_btn_add">#ff747980</color>
+    <color name="settings_btn_text">#ff68798c</color>
+    <color name="settings_field_cnt_valid">#ff929394</color>
+    <color name="black">#000000</color>
+    <color name="settings_field_cnt_invalid">#ffde4d1b</color>
+</resources>

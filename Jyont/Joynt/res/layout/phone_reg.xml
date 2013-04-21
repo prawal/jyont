@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/i_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/LabelTextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registorEnterYouNumber" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <EditText
+                    android:id="@+id/textCountrycode"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:text="@string/registorCountryCode"
+                    android:textSize="14dp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/textCountry"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/disclosure"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:text="@string/registorCountry"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <EditText
+                    android:id="@+id/txtPhoneNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.02"
+                    android:inputType="phone"
+                    android:maxLength="10" />
+
+                <Button
+                    android:id="@+id/buttonRegNext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:text="@string/registorButtonText" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/ShadowDown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:paddingTop="4.0dip"
+                android:shadowColor="#fff6f6f6"
+                android:text="@string/registorBottomText"
+                android:textColor="#ff4e5466"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

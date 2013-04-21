@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <include layout="@layout/i_title" />
+    <ScrollView android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="7.3299866dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+           <include layout="@layout/inc_settings_btn_simpletop" android:id="@+id/settings_profile" />
+           <include layout="@layout/inc_settings_btn_simplebottom" android:id="@+id/settings_myaccount" />
+           <include layout="@layout/inc_settings_btn_simple" android:id="@+id/settings_chat_room" />
+           
+  		   <include layout="@layout/inc_settings_btn_texttop" android:id="@+id/settings_notification" />
+           <include layout="@layout/inc_settings_btn_textbottom" android:id="@+id/settings_voicecall" />
+           
+           <include layout="@layout/inc_settings_btn_simple" android:id="@+id/settings_privacy" />
+           
+           <include layout="@layout/inc_settings_btn_numtop" android:id="@+id/settings_news" />
+           <include layout="@layout/inc_settings_btn_simplemiddle" android:id="@+id/settings_help" />
+           <include layout="@layout/inc_settings_btn_simplebottom" android:id="@+id/settings_about_us" />
+           
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
